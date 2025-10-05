@@ -14,5 +14,7 @@ window.onload = function() {
     canvasEl.style.width = `${GameViewport.WIDTH * GameViewport.SCALE}px` ; 
     canvasEl.style.height = `${GameViewport.HEIGHT * GameViewport.SCALE}px` ; 
 
+    context.strokeStyle = 'Black';
+
     console.log('document is ready');
 }
